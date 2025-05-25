@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho grupo 5 (e-mob)</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Cabeçalho -->
+    <div class="Cabechalho">
+        <div class="DivLogotipo">
+            <img class="logotipo" src="imagens/logotipo.jpg" alt="logotipo">
+            <h1 class="NomedoSite">e-mob</h1>
+        </div>
+
+        <div class="BarraMenuSup">
+            <a href="menu.html"><img class="imagembotaomenu" src="imagens/menu.svg" alt="Menu"></a>
+
+            <img id="foto-usuario" class="fotoperfil" src="imagens/foto-padrao.jpg" >
+
+            <!-- Botão de login -->
+            <a href="#" id="botaoLoginLink">
+                <img id="botaoLogin" class="imagembotaologim" src="imagens/logim.svg" alt="Login">
+            </a>
+
+            <!-- Botão de contato -->
+            <a href="contato"><img class="imagembotaocontato" src="imagens/contatovsg.svg" alt="Contato"></a>
+
+            <!-- Botão de compra -->
+            <a href="compra"><img class="imagembotaocarrinho" src="imagens/carrinho.svg" alt="Compra"></a>
+
+            <p class="submenu">
+                <a class="linksubmenu" href="produtos.html">Produtos</a>
+                <a class="linksubmenu" href="destaque">Destaque</a>
+                <a class="linksubmenu" href="promocoes">Promoções</a>
+            </p>
+        </div>
+    </div>
+
+    <!-- Formulário de Cadastro/Login (único e correto) -->
+    <div id="formularioCadastro" style="display: none;" class="formulario">
+        <h2>Cadastro</h2>
+        <input type="text" id="nomeUsuario" placeholder="Nome completo"><br>
+        <input type="email" id="emailUsuario" placeholder="E-mail"><br>
+        <input type="password" id="senhaUsuario" placeholder="Senha"><br>
+        <input type="file" id="imagemPerfil" accept="image/*"><br><br>
+        <img id="previewImagem" src="" alt="Pré-visualização" style="max-width: 80px; display: none;"><br><br>
+        <button onclick="fazerCadastro()">Cadastrar</button>
+        <button onclick="cancelarCadastro()">Cancelar</button>
+    </div>
+
+    <!-- Página principal -->
+    <div class="PaginaPrincipal">
+        <!-- Conteúdo da página -->
+    </div>
+    <script src="js.js"></script>
+</body>
+
+</html>

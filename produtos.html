@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos - e-mob</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Cabeçalho -->
+    <div class="Cabecalho">
+        <div class="DivLogotipo">
+            <img class="logotipo" src="imagens/logotipo.jpg" alt="logotipo">
+            <h1 class="NomedoSite">e-mob</h1>
+        </div>
+
+        <div class="BarraMenuSup">
+            <a href="menu.html"><img class="imagembotaomenu" src="imagens/menu.svg" alt="Menu"></a>
+            <img id="foto-usuario" class="fotoperfil" src="imagens/foto-padrao.jpg" alt="Foto do Usuário">
+            <a href="index.html" id="botaoLoginLink"><img class="imagembotaologim" src="imagens/logim.svg"
+                    alt="Login"></a>
+            <a href="contato.html"><img class="imagembotaocontato" src="imagens/contatovsg.svg" alt="Contato"></a>
+            <a href="compra.html"><img class="imagembotaocarrinho" src="imagens/carrinho.svg" alt="Compra"></a>
+
+            <p class="submenu">
+                <a class="linksubmenu" href="produtos.html">Produtos</a>
+                <a class="linksubmenu" href="destaque.html">Destaque</a>
+                <a class="linksubmenu" href="promocoes.html">Promoções</a>
+            </p>
+        </div>
+    </div>
+
+    <!-- Conteúdo da Página de Produtos -->
+    <main class="conteudo-produtos">
+        <h2 class="titulo-secao">Catálogo de Produtos</h2>
+
+        <div class="grid-produtos">
+            <!-- Produto 1 -->
+            <div class="produto">
+                <img src="imagens/produto1.jpg" alt="Sofá 3 lugares">
+                <h3>Sofá 3 Lugares</h3>
+                <p>Confortável, tecido suede, ideal para sua sala.</p>
+                <p class="preco">R$ 1.200,00</p>
+                <button class="botao-comprar">Comprar</button>
+            </div>
+
+            <!-- Produto 2 -->
+            <div class="produto">
+                <img src="imagens/produto2.jpg" alt="Mesa de Jantar">
+                <h3>Mesa de Jantar</h3>
+                <p>Vidro temperado com base de madeira.</p>
+                <p class="preco">R$ 980,00</p>
+                <button class="botao-comprar">Comprar</button>
+            </div>
+
+            <!-- Produto 3 -->
+            <div class="produto">
+                <img src="imagens/produto3.jpg" alt="Estante Moderna">
+                <h3>Estante Moderna</h3>
+                <p>Ideal para sua sala de estar ou escritório.</p>
+                <p class="preco">R$ 750,00</p>
+                <button class="botao-comprar">Comprar</button>
+            </div>
+
+            <!-- Adicione mais produtos conforme necessário -->
+        </div>
+    </main>
+
+    <script src="js.js"></script>
+</body>
+
+</html>
